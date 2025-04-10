@@ -1,15 +1,5 @@
-body {
-  height: 100vh;
-  margin: 0;
-}
-
-.badge {
-  height: 30%;
-  position: absolute;
-}
-
-img {
-  height: 200px;
-  -o-object-fit: cover;
-  object-fit: cover;
-} /*# sourceMappingURL=main.css.map */
+.button-style {
+  background-color: #0078d7;
+  color: #fff;
+  border-radius: 8px;
+}/*# sourceMappingURL=main.css.map */
