@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+  #avis {
+    > div {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+}
