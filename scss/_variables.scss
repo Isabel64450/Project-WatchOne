@@ -3,4 +3,9 @@ $menu-color: #f2f2f2;
 $contrast-color: #0078d7;
 $text-color: #111;
 $default-font: Roboto;
-$button-color: #0078d7;
+
+.button-style {
+  background-color: $contrast-color;
+  color: $main-color;
+  border-radius: 8px;
+}
