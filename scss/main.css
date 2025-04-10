@@ -4,8 +4,34 @@
   border-radius: 8px;
 }
 
+@media (max-width: 600px) {
+  #avis > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+* {
+  margin: 0;
+}
+
 #avis {
   width: 100%;
   background-color: #fff;
+}
+#avis > div {
   display: flex;
+}
+#avis > div .card > div:first-child {
+  display: flex;
+  width: 100px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#avis > div .card > div:first-child img:first-child {
+  width: 100%;
+  aspect-ratio: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */
