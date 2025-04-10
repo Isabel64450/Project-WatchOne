@@ -1,0 +1,32 @@
+@import url(_variables.scss);
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.smart {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.icon > img {
+  width: 4rem;
+  height: auto;
+}
