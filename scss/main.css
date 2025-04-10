@@ -1,4 +1,19 @@
-.button-style {
+.button-style, button {
+  background-color: #0078d7;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.badge {
+  height: 30%;
+  position: absolute;
+}
+
+img {
+  height: 200px;
+}
+
+.button-style, button {
   background-color: #0078d7;
   color: #fff;
   border-radius: 8px;
