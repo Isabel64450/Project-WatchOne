@@ -17,3 +17,9 @@ button {
 @include responsive(desktop) {
   padding: 4rem;
 }
+
+footer {
+  display: flex;
+  height: 20%;
+  width: 100%;
+}
