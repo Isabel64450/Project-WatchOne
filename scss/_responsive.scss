@@ -1,3 +1,13 @@
+@media (max-width: 600px) {
+  #avis {
+    > div {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+}
+
 @mixin responsive($breakpoint) {
   @if $breakpoint == movil {
     @media (min-width: 412px) {
