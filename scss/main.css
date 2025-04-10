@@ -1,10 +1,15 @@
 body {
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  border: none;
+  height: 100vh;
+  margin: 0;
 }
 
-.hero > a > button {
-  background-color: #0078d7;
-  color: white;
+.badge {
+  height: 30%;
+  position: absolute;
+}
+
+img {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */
